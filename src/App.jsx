@@ -9,6 +9,7 @@ import CartDrawer from './components/CartDrawer'
 import Toast from './components/Toast'
 import productsData from './data/products.json'
 import './App.css'
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   // Price mode state: 'retail' (Minorista) or 'wholesale' (Mayorista)
@@ -178,8 +179,13 @@ function App() {
           setIsCartOpen(true)
         }}
       />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   )
+
 }
+
 
 export default App
