@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-bakery-cream: #FAF7F2;
+  --color-bakery-sand: #F3EDE2;
+  --color-bakery-crust: #8C5835;
+  --color-bakery-dark: #2C1E18;
+  --color-bakery-accent: #C88D46;
+  --color-bakery-accent-hover: #B57B36;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bakery-cream);
+  color: var(--color-bakery-dark);
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
+}

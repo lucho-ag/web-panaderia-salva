@@ -1,0 +1,98 @@
+[
+  {
+    "id": "pan-molde-masamadre",
+    "name": "Pan de Molde Masa Madre",
+    "description": "Elaborado con masa madre viva de cultivo propio y 24hs de fermentación en frío. Miga esponjosa y aireada con suave corteza dorada.",
+    "category": "panaderia",
+    "retailPrice": 4200,
+    "wholesalePrice": 2950,
+    "wholesaleMinQuantity": 3,
+    "image": "/images/products/pan-masa-madre.webp",
+    "badge": "Masa Madre",
+    "unit": "Hogaza 800g"
+  },
+  {
+    "id": "pan-molde-integral",
+    "name": "Pan de Molde Integral & Semillas",
+    "description": "Harina 100% integral orgánica molida a piedra con mix tostado de lino dorado, chía, girasol y sésamo tostado.",
+    "category": "panaderia",
+    "retailPrice": 4600,
+    "wholesalePrice": 3250,
+    "wholesaleMinQuantity": 3,
+    "image": "/images/products/pan-harina-integral.webp",
+    "badge": "Integral Orgánico",
+    "unit": "Hogaza 750g"
+  },
+  {
+    "id": "bagels-artesanales",
+    "name": "Bagels Tradicionales (Pack x4)",
+    "description": "Auténticos bagels estilo New York, escalfados y horneados con semillas de sésamo blanco, sésamo negro y sal marina.",
+    "category": "panaderia",
+    "retailPrice": 3800,
+    "wholesalePrice": 2650,
+    "wholesaleMinQuantity": 3,
+    "image": "/images/products/baguel.webp",
+    "badge": "Pack x4",
+    "unit": "Pack 4 u."
+  },
+  {
+    "id": "pan-brioche-burger",
+    "name": "Pan Brioche para Hamburguesa (Pack x4)",
+    "description": "Pan brioche súper tierno y esponjoso, enriquecido con manteca de campo y yemas de huevo. Corona glaseada con sésamo.",
+    "category": "panaderia",
+    "retailPrice": 3600,
+    "wholesalePrice": 2500,
+    "wholesaleMinQuantity": 4,
+    "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=800&q=80",
+    "badge": "Gastronómico",
+    "unit": "Pack 4 u."
+  },
+  {
+    "id": "medialunas-manteca",
+    "name": "Medialunas de Manteca (Docena)",
+    "description": "Hojaldre artesanal con 100% manteca de primera calidad, fermentadas pacientemente y pinceladas con almíbar de naranja y vainilla.",
+    "category": "facturas",
+    "retailPrice": 7200,
+    "wholesalePrice": 5100,
+    "wholesaleMinQuantity": 2,
+    "image": "/images/products/medialunas.webp",
+    "badge": "100% Manteca",
+    "unit": "Docena (12 u.)"
+  },
+  {
+    "id": "facturas-surtidas",
+    "name": "Facturas Artesanales Surtidas (Docena)",
+    "description": "Clásicos porteños: cañoncitos con dulce de leche repostero, vigilantes glaseados, sacramentos de membrillo y medialunas con pastelera.",
+    "category": "facturas",
+    "retailPrice": 6900,
+    "wholesalePrice": 4850,
+    "wholesaleMinQuantity": 2,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+    "badge": "Surtido Salva",
+    "unit": "Docena (12 u.)"
+  },
+  {
+    "id": "croissant-almendras",
+    "name": "Croissant Francés de Almendras",
+    "description": "Croissant de hojaldre crocante relleno de suave crema frangipane y cubierto con abundantes almendras fileteadas tostadas.",
+    "category": "pasteleria",
+    "retailPrice": 3200,
+    "wholesalePrice": 2250,
+    "wholesaleMinQuantity": 4,
+    "image": "https://images.unsplash.com/photo-1623334044303-241021148842?auto=format&fit=crop&w=800&q=80",
+    "badge": "Especialidad",
+    "unit": "Unidad"
+  },
+  {
+    "id": "focaccia-romero-oliva",
+    "name": "Focaccia al Romero, Oliva & Sal Marina",
+    "description": "Masa aireada de alta hidratación con abundante aceite de oliva extra virgen, romero fresco del huerto y escamas de sal marina.",
+    "category": "salados",
+    "retailPrice": 4100,
+    "wholesalePrice": 2900,
+    "wholesaleMinQuantity": 2,
+    "image": "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&fit=crop&w=800&q=80",
+    "badge": "Masa Madre",
+    "unit": "Plancha (aprox. 500g)"
+  }
+]
