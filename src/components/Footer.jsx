@@ -4,8 +4,8 @@ import { WHATSAPP_PHONE_NUMBER } from '../config/constants'
 export default function Footer() {
   const currentYear = new Date().getFullYear()
   const cleanPhone = WHATSAPP_PHONE_NUMBER.replace(/[^0-9]/g, '')
-  const whatsappUrl = `https://wa.me/${cleanPhone}?text=${encodeURIComponent(
-    '¡Hola Panadería Salva! Les escribo desde el sitio web.'
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=${cleanPhone}&text=${encodeURIComponent(
+    '¡Hola Panadería Salva! Quería consultar sobre horarios, zonas de entrega y disponibilidad de productos.'
   )}`
 
   return (
@@ -36,7 +36,7 @@ export default function Footer() {
             {/* Social Links */}
             <div className="flex items-center gap-3 pt-2">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/salva_panes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==&igsi=ZDNlZDc0MzIxNw=="
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-white/5 hover:bg-[#8C5835] text-[#FAF7F2] text-xs font-semibold transition-colors border border-white/10"
@@ -102,7 +102,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Clock className="w-4 h-4 text-[#C88D46] shrink-0 mt-0.5" />
-                <span>Miércoles a Domingos 09:00 a 19:00 hs</span>
+                <span>Lunes a Domingos 09:00 a 19:00 hs</span>
               </li>
             </ul>
             <p className="text-[11px] text-[#FAF7F2]/60 bg-white/5 p-2.5 rounded-xl border border-white/5">

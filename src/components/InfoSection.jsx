@@ -2,7 +2,7 @@ import { MapPin, Clock, Truck, Store, MessageCircle, ShieldCheck } from 'lucide-
 import { WHATSAPP_PHONE_NUMBER } from '../config/constants'
 
 export default function InfoSection() {
-  const whatsappInquiryUrl = `https://wa.me/${WHATSAPP_PHONE_NUMBER.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(
+  const whatsappInquiryUrl = `https://api.whatsapp.com/send?phone=${WHATSAPP_PHONE_NUMBER.replace(/[^0-9]/g, '')}&text=${encodeURIComponent(
     '¡Hola Panadería Salva! Quería consultar sobre horarios, zonas de entrega y disponibilidad de productos.'
   )}`
 
